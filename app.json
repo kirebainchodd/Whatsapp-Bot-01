@@ -1,14 +1,14 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
-  "logo": "https://i.ibb.co/mCfPfmJL/shaban-md.jpg",
-  "keywords": ["SHABAN-MD"],
+  "name": "TANVIR",
+  "description": "Javascript WhatsApp bot made by TANVIR",
+  "logo": "https://i.postimg.cc/Hx9Rx94F/IMG-20250714-015950.jpg",
+  "keywords": ["TANVIR"],
   "success_url": "/",
 
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "SHABAN-MD~VARVDD5B#yztYdgsjRFY5Saxwx9QmuTueJIO_M0sHTgqfvtyP_Vg",
       "required": true,
       "value": ""
     },  
@@ -16,13 +16,25 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SHABAN-MD︎"
+      "value": "TANVIR"
     },
+    
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "TANVIR"
+}, 
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "8801747735262"
+
+    }, 
     
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": true,
-      "value": "https://i.ibb.co/j9G5tmNM/shaban-md.jpg"
+      "value": "https://i.postimg.cc/Hx9Rx94F/IMG-20250714-015950.jpg"
     }, 
       
     "PREFIX": {
@@ -43,13 +55,7 @@
       "description": "Make it true if want always online.",
       "required": true,
       "value": "false"  
-    },
-    
-    "AUTO_BIO": {
-      "description": "Make it true if want auto about changing.",
-      "required": true,
-      "value": "false"  
-    },    
+    },   
   
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
@@ -91,25 +97,25 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Sʜᴀʙᴀɴ-Mᴅ 𓅓*"
+      "value": "*SᴇᴇN YᴏᴜʀE SᴛᴀᴛᴜS JᴜsT NᴏW Tanvir 𓅓*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHABAN-MD V5"
+      "value": "TANVIR BOTLA V5"
 
      },
      
     "DELETE_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
-      "required": false,
+      "required": true,
       "value": "false"
     }, 
     
     "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
+      "description": "Make it true if you want bot auto kick member remove group link.",
       "required": true,
       "value": "false"
     },
@@ -171,10 +177,16 @@
     }, 
     
     "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat",
-      "required": false,
-      "value": "log"
-    }, 
+      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
+      "required": true,
+      "value": "inbox"
+    },
+
+    "ANTI_DELETE": {
+      "description": "set true for show deleted messages.",
+      "required": true,
+      "value": "false"  
+    },
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
@@ -190,5 +202,4 @@
         }
      ],
   "stack": "heroku-24"
-}
-  
+  }
