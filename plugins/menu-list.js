@@ -297,7 +297,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/b08bxj.jpg` },
+                image: { url: `https://i.postimg.cc/JzGTCv12/IMG-20250715-WA0002.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -305,7 +305,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363358310754973@newsletter',
-                        newsletterName: 'SʜᴀʙᴀɴMᴅ',
+                        newsletterName: 'TANVIR',
                         serverMessageId: 143
                     }
                 }
