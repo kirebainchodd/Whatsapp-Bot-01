@@ -25,7 +25,7 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.postimg.cc/Hx9Rx94F/IMG
 // add custom menu and mention reply image url   
 BOT_NAME: process.env.BOT_NAME || "TANVIR BOTLA V6",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "TAMVIR",
+STICKER_NAME: process.env.STICKER_NAME || "TAMVIR Vai",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
